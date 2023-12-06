@@ -1,0 +1,12 @@
+@font-face {
+  font-family: zcool;
+  src: url("./font/TsangerYuYangT_W02_W02.ttf");
+}
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+/* @font-face {
+  font-family: zcool;
+  font-weight: 400;
+  src: url("//at.alicdn.com/wf/webfont/FLZFjddqCfGt/J0EOwFzgEbL9Gq31_50Ua.woff2") format("woff2"),
+    url("//at.alicdn.com/wf/webfont/FLZFjddqCfGt/FU1GVMEm5qP0Hjp0DFZ1U.woff") format("woff");
+  font-display: swap;
+} */

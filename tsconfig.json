@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": false,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "skipLibCheck": true,
+    "baseUrl": "./",  // 解析非相对模块的基础地址，默认是当前目录
+    "paths": { // 路径映射，相对于baseUrl
+            "@/*": ["src/*"]
+        },
+    "suppressImplicitAnyIndexErrors": true
+
+
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "./auto-imports.d.ts" // 引入到这里
+  ],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
